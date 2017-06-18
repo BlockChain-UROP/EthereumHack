@@ -1,0 +1,80 @@
+{
+  "contract_name": "HelloWorldTwo",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "name": "success",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address"
+        }
+      ],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "name": "_balance",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60008054600160a060020a03191633600160a060020a03908116919091178083551681526001602052604090206103e890555b5b610180806100506000396000f300606060405263ffffffff60e060020a6000350416638da5cb5b8114610037578063a9059cbb14610063578063f8b2cb4f14610096575bfe5b341561003f57fe5b6100476100c4565b60408051600160a060020a039092168252519081900360200190f35b341561006b57fe5b610082600160a060020a03600435166024356100d3565b604080519115158252519081900360200190f35b341561009e57fe5b6100b2600160a060020a0360043516610135565b60408051918252519081900360200190f35b600054600160a060020a031681565b600160a060020a033316600090815260016020526040812054829010156100fc5750600061012f565b50600160a060020a0333811660009081526001602081905260408083208054869003905592851682529190208054830190555b92915050565b600160a060020a0381166000908152600160205260409020545b9190505600a165627a7a72305820b5656c8c9d9dc1d2f1bfdc2049cfcc16c627aa849e1112139a9313f781bfa8ca0029",
+  "networks": {
+    "1497766305686": {
+      "events": {},
+      "links": {},
+      "address": "0xafffa4e515e8fce16621f09927f1bdf7c26414f3",
+      "updated_at": 1497768562866
+    },
+    "1497768626797": {
+      "events": {},
+      "links": {},
+      "address": "0x09f176324e40c1c2b204ed27eac53e4f03852932",
+      "updated_at": 1497768775566
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1497768775566
+}

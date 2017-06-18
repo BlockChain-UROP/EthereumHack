@@ -1,0 +1,114 @@
+{
+  "contract_name": "HelloWorld",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "deposit",
+      "outputs": [
+        {
+          "name": "_newValue",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "name": "success",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_user",
+          "type": "address"
+        }
+      ],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "name": "_balance",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60008054600160a060020a03191633600160a060020a03908116919091178083551681526001602052604090206103e890555b5b6101e3806100506000396000f300606060405263ffffffff60e060020a60003504166347e7ef2481146100425780638da5cb5b14610073578063a9059cbb1461009f578063f8b2cb4f146100d2575bfe5b341561004a57fe5b610061600160a060020a0360043516602435610100565b60408051918252519081900360200190f35b341561007b57fe5b610083610127565b60408051600160a060020a039092168252519081900360200190f35b34156100a757fe5b6100be600160a060020a0360043516602435610136565b604080519115158252519081900360200190f35b34156100da57fe5b610061600160a060020a0360043516610198565b60408051918252519081900360200190f35b600160a060020a038216600090815260016020526040902080548201908190555b92915050565b600054600160a060020a031681565b600160a060020a0333166000908152600160205260408120548290101561015f57506000610121565b50600160a060020a0333811660009081526001602081905260408083208054869003905592851682529190208054830190555b92915050565b600160a060020a0381166000908152600160205260409020545b9190505600a165627a7a72305820eba336faf905352ce34e7bde014710d786e5d1d6dae6ba07141ef950ce8875830029",
+  "networks": {
+    "1497750857017": {
+      "events": {},
+      "links": {},
+      "address": "0x9f5198b83d3ba4458a9228acb4350470c6463b14",
+      "updated_at": 1497750868270
+    },
+    "1497752003663": {
+      "events": {},
+      "links": {},
+      "address": "0x961813fd8f0883b0a874a66f0b00051e14590682",
+      "updated_at": 1497765644451
+    },
+    "1497766305686": {
+      "events": {},
+      "links": {},
+      "address": "0x73d8e0173213cb692d38b3308486596ce54ebbaf",
+      "updated_at": 1497766359219
+    },
+    "1497768626797": {
+      "events": {},
+      "links": {},
+      "address": "0x00c6e1fbf3ed03aaeac9e83437d5a93944f1bfcf",
+      "updated_at": 1497769613711
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1497769613711
+}
